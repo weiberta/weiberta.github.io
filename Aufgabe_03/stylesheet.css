@@ -9,13 +9,14 @@ color:#000000;
 }
 
 h1 {color: #9bOeOe;
-    front-size: 3em;}
+    font-size: 3em;
+}
 
-h5 {front-size:2em;}
+h5 {font-size: 2em;}
 
 
 section {background-color:#ffffff;
-font-family:Cambria, Cochin, ia, Times, 'Times New Roman', serif;
+font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
 width:90%;
 color:#000000;
 }
