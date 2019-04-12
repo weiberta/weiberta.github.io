@@ -1,40 +1,22 @@
-
-body {background-color: #4b0404}
-
-h1  {font-size: 4em;
-    color: #000000;
-    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
-    }
-
-    
-h2  {font-size: 2.5em;
-     color: #000000;
-     font-family:Arial, Helvetica, sans-serif;
-    }
-
-    
-h3  {font-size: 2em;
-    color: #ffffff;
-    font-family:Arial, Helvetica, sans-serif;
-    }
-
-p   {font-size: 1,5em;
-color: #dbdbdb;
-font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+body {background-color:#e6ccff;
 }
-
-section {background-color:#5c0211;
-width: 85%;
+p {font-size: 2em;
+font-family:Times New Roman;
+color:#000000;
 }
-
-article {background-color:#47003e;
-width: 80%;
+section {background-color:#80ccff;
+font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+width:90%;
+color:#000000;
 }
-
-img {height: 200px;
-width: 30%;
-border-width: 1,5px;
-border-style: solid;
-border-color: #000000;
-border-radius: 5px;
+article {background-color:#ffffcc;
+font-family: American Typewriter;
+width:95%;
+color:#000000;
+}
+img { height:250px;
+width:35%;
+border-style:groove;
+border-color:#800040;
+border-width:medium;
 }
