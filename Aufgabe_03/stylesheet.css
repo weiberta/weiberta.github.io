@@ -1,22 +1,27 @@
-body {background-color:#e6ccff;
+body 
+
+{background-color:#691010
 }
-p {font-size: 2em;
-font-family:Times New Roman;
+p 
+{font-size: 2em;
+font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
 color:#000000;
 }
-section {background-color:#80ccff;
+
+section {background-color:#691010;
 font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
 width:90%;
 color:#000000;
 }
-article {background-color:#ffffcc;
+
+article {background-color:#691010;
 font-family: American Typewriter;
 width:95%;
 color:#000000;
 }
-img { height:250px;
+img { height:500px;
 width:35%;
 border-style:groove;
-border-color:#800040;
+border-color:#000000;
 border-width:medium;
 }
