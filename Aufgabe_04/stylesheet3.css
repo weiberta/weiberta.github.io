@@ -34,10 +34,10 @@ html {
       float: left
   }
   nav{
-      text-align:right;
-      width: 100%;
-      margin: 1em 0em 0em 1em;
-  }
+    text-align:right;
+    width: 100%;
+    margin: -5em 0em 0em 1em;
+}
   
   .nav2{
       margin: 0.5px 12px 0px 12px;
