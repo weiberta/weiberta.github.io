@@ -10,6 +10,14 @@ color:#000000;
 }
 
 
+header {
+    background-color: #0011FF;
+    width: 100%;
+    height: 5em;
+    font-family: caviar dreams;
+    
+}
+
 h1 {;
     font-size: 4em;
     font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif ;
