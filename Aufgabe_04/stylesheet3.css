@@ -10,6 +10,12 @@ color:#000000;
 }
 
 
+nav{
+    text-align:right;
+    width: 100%;
+    margin: 1em 0em 0em 1em;
+}
+
 h1 {;
     font-size: 4em;
     font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif ;
