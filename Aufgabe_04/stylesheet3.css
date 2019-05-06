@@ -31,20 +31,6 @@ width:90%;
 color:#000000;
 }
 
-.subCCs {
-    background-color: #000000;
-    width: 13em;
-    height: 20em;
-    border: 1px solid #ffffff;
-    overflow: hidden;
-    float: left;
-    clear: right;
-    padding: 0.1em;
-    margin-left: 0.2em;
-    margin-right: 0.2em;
-    margin-bottom: 0.2em;
-    margin-top: 0.2em
-}
 
 article {background-color:#d4d4d4;
 font-family: Cambria, Cochin, , Times, 'Times New Roman', serif;
