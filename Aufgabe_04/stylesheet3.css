@@ -22,6 +22,18 @@ h2 { font-size: 2em;
     text-align: center;
 }
 
+.CC {
+    background-color: #120c0c;
+    width: 53em;
+    height:30em;
+    border: 1px solid #ffffff;
+    overflow: hidden;
+    margin: 0em 2em 2em 2em;
+    padding: 1em;
+    float: right;
+    clear: left
+}
+
 .subCCs {
     background-color: #000000;
     width: 30em;
