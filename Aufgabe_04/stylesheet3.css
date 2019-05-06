@@ -1,82 +1,165 @@
-body 
-{
-    background-color: #white;
-    overflow: none }
-
-p 
-
-{font-size: 1em;
-    float: left 
-font-family:Cambria, Cochin, , Times, 'Times New Roman', serif;
-color:#000000;
-}
-
-
-
-
-h1 {;
-    font-size: 4em;
-    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif ;
-    color:#691010;  
-    text-align: center;
-    margin-top: 0px;     
-}
-
-ul {
-    float: right
-    
-}
-
-h2 { font-size: 2em;
-    text-align: center;
-}
-
-.CC {
-    background-color: #120c0c;
-    width: 50em;
-    height: 40em;
-    border: 1px solid #ffffff;
-    overflow: hidden;
-    margin: 0em 2em 2em 2em;
-    padding: 1em;
-   
-}
-
-
-
-.subCCs {
-    background-color: #ffffff;
-    width: 60em;
-    height: 20em;
-    border: 1px solid #000000;
-    overflow: hidden;
-    float: left;
-    clear: right;
-    padding: 0.1em;
-    margin-left: 0.1em;
-    margin-right: 0.1em;
-    margin-bottom: 0.1em;
-    margin-top: 0.1em
-}
-
-
-section {background-color:#ffffff;
-font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
-width:90%;
-color:#000000;
-}
-
-
-article {background-color:#d4d4d4;
-font-family: Cambria, Cochin, , Times, 'Times New Roman', serif;
-width:95%;
-color:#000000;
-    
-    
-}
-img { height:100%;
-width:50%;
-border-style:groove;
-border-color:#000000;
-border-width:small
-}
+/*stylesheet5.css*/
+html {
+    background-color: #000000;
+    font-family: dubai;
+    font-size: 1em;
+  }
+  
+  
+  h1{
+      font-size: 4em;
+      font-family: Cambria, Cochin, , Times, 'Times New Roman', serif;
+      color:#691010;
+      text-align: center;
+      width: 88%;
+      filter: opacity(80%);
+      
+  }
+  
+  header {
+      background-color: #ffffff;
+      width: 100%;
+      height: 4em;
+      font-family: Cambria;
+      
+  }
+  
+  header:hover {
+      background-color: #000000;
+      width: 100%;
+      height: 5em;
+      font-family: Cambria bold;
+  }
+  .asdf{
+      margin: 1.3em 0em 0em 3em;
+      float: left
+  }
+  nav{
+      text-align:right;
+      width: 100%;
+      margin: 1em 0em 0em 1em;
+  }
+  
+  .nav2{
+      margin: 0.5px 12px 0px 12px;
+  }
+  ul{
+      display: inline-block;
+      color: #ffffff;
+      font-size: 18pt;
+      margin: 1.5em 2em 0em 0em;
+  
+  }
+  li{
+      max-width: 50%;
+      display: inline-block;
+  }
+  
+  .CC {
+      background-color: #120c0c;
+      width: 53em;
+      height:30em;
+      border: 1px solid #ffffff;
+      overflow: hidden;
+      margin: 0em 2em 2em 2em;
+      padding: 1em;
+      float: right;
+      clear: left
+  }
+  
+  
+  .subCCs {
+      background-color: #000000;
+      width: 13em;
+      height: 20em;
+      border: 1px solid #ffffff;
+      overflow: hidden;
+      float: left;
+      clear: right;
+      padding: 0.1em;
+      margin-left: 0.2em;
+      margin-right: 0.2em;
+      margin-bottom: 0.2em;
+      margin-top: 0.2em
+  }
+  .emgp {
+      width: 55%;
+      height: 60%;
+      float:right;
+  }
+  .emgp:hover {
+      width: 100%;
+      height: 107%;
+  }
+  
+  .arti0 {
+      background-color: #222222;
+      margin: 0.5em 0.5em 0em 0.5em;
+      width: 35%;
+      float: left;
+  }
+  .arti2{
+      background-color: #313131;
+      margin: 1.85em 0em 0em 0.5em;
+      width: 35%;
+      float: left
+  }
+  .arti3{
+      background-color: #444444;
+      margin: 0.5em 0em 0em 0em;
+      width: 63%;
+      float: right;
+  }
+  .arti1{
+      margin: 1em 0em 0em 1em;
+      width: 12em;
+      text-align: center
+  }
+  .texte {
+      color: #ffffff
+  }
+  
+  .ghjk{
+      max-width: 100%;
+      
+      
+  }
+  aside{
+       position: absolute;
+       float: left;
+       width: 15%;
+       font-size: 25px;
+       font-family: Caviar Dreams;
+       color: #000000;
+       text-align: left;
+       background-color:#A37739;  
+  
+   }
+  
+   aside.asideleft:hover{
+      transform: translateZ(0px);
+      backface-visibility: hidden;
+      transition-duration: 0.75s;   
+      width: 25%;
+      font-size: 25px;
+      font-family: Caviar Dreams bold;
+      color: #ffffff;
+      text-align: center;
+      background-color:#A37739;
+      
+   } 
+  main{
+      max-width: 65%;
+      float: right;
+  }
+  footer {
+      background-color: #A37739;
+      text-align: center;
+      font-family: caviar dreams bold;
+      font-size: 15pt;
+      margin-top:85em;
+      width: 100%;
+  }
+  .footercolor {
+      color: #000000
+  }
