@@ -10,38 +10,6 @@ color:#000000;
 }
 
 
-nav{
-    text-align:right;
-    width: 100%;
-    margin: 1em 0em 0em 1em;
-}
-
-.nav2{
-    margin: 0.5px 12px 0px 12px;
-}
-ul{
-    display: inline-block;
-    color: #A37739;
-    font-size: 18pt;
-    margin: 1.5em 2em 0em 0em;
-
-}
-li{
-    max-width: 50%;
-    display: inline-block;
-}
-
-.CC {
-    background-color: #120c0c;
-    width: 53em;
-    height:30em;
-    border: 1px solid #ffffff;
-    overflow: hidden;
-    margin: 0em 2em 2em 2em;
-    padding: 1em;
-    float: right;
-    clear: left
-}
 h1 {;
     font-size: 4em;
     font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif ;
@@ -50,7 +18,7 @@ h1 {;
     margin-top: 0px;     
 }
 
-h5 { font-size: 2em;
+h2 { font-size: 2em;
     text-align: center;
 }
 
