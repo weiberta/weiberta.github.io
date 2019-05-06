@@ -28,7 +28,7 @@ h2 { font-size: 2em;
     height: 20em;
     border: 1px solid #ffffff;
     overflow: hidden;
-    float: center;
+    float: left;
     clear: right;
     padding: 0.1em;
     margin-left: 0.1em;
