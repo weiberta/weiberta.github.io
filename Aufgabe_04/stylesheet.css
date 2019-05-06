@@ -1,0 +1,71 @@
+body 
+{
+    background-color: #white;
+    overflow: none }
+
+p 
+{font-size: 2em;
+font-family:Cambria, Cochin, , Times, 'Times New Roman', serif;
+color:#000000;
+}
+
+
+title {;
+    font-size: 4em;
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif ;
+    color:#691010;  
+    text-align: center;
+    margin-top: 0px;     
+}
+
+h5 { font-size: 2em;
+    text-align: center;
+}
+#mainnav {
+    
+    
+}
+
+
+
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  width: 15%;
+  background-color: #f1f1f1;
+  height: 50%; /* Full height */
+  position: fixed; /* Make it stick, even on scroll */
+  overflow: auto; /* Enable scrolling if the sidenav has too much content */
+}
+
+}
+
+section {background-color:#ffffff;
+font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+width:90%;
+color:#000000;
+}
+
+article {background-color:#d4d4d4;
+font-family: Cambria, Cochin, , Times, 'Times New Roman', serif;
+width:95%;
+color:#000000;
+    
+    
+}
+img { height:100%;
+width:50%;
+border-style:groove;
+border-color:#000000;
+border-width:small
+}
+
+    
+}
+img { height:100%;
+width:50%;
+border-style:groove;
+border-color:#000000;
+border-width:small
+}
