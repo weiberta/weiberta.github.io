@@ -24,11 +24,11 @@ h2 { font-size: 2em;
 
 .subCCs {
     background-color: #000000;
-    width: 50em;
+    width: 30em;
     height: 20em;
     border: 1px solid #ffffff;
     overflow: hidden;
-    float: left;
+    float: center;
     clear: right;
     padding: 0.1em;
     margin-left: 0.1em;
