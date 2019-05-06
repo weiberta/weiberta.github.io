@@ -151,6 +151,14 @@ html {
       max-width: 65%;
       float: right;
   }
+
+  img { height:30%;
+    width:100%;
+    border-style:groove;
+    border-color:#000000;
+    border-width:small
+    }
+
   footer {
       background-color: #A37739;
       text-align: center;
