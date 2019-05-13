@@ -168,7 +168,7 @@ a:hover
 
 .maina {
     float:left;
-    width:50%;
+    width:100%;
     border: 1px solid #ffffff;
     margin-left: auto;
     margin-right: auto;
@@ -292,3 +292,10 @@ div#wrapperHeader div#header img {
     left:-1600px;
 }
 
+@media screen and (max-width: 600px) {
+    div.header {
+      font-size: 30px;
+    }
+  }
+
+  @media screen and (max-width:959px)
