@@ -292,10 +292,26 @@ div#wrapperHeader div#header img {
     left:-1600px;
 }
 
-@media screen and (max-width: 600px) {
-    div.header {
-      font-size: 30px;
-    }
-  }
 
-  @media screen and (max-width:959px)
+
+/*Tablet-Modus*/
+@media screen and (max-width: 64em){
+    section{
+        width:49%;
+    }
+}
+
+   
+/*smartphone-Modus*/
+@media screen and (max-width: 35em){
+   section{
+       width:100%;
+   }
+   asideright{
+       width:100%;
+   }
+   maina{
+       margin-left: 0%;
+       width:100%;
+   }
+}
