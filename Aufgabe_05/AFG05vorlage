@@ -1,0 +1,202 @@
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/html">
+<head>
+    <meta charset="UTF-8">
+    <name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" type="text/css" href="stylesheet0.css">
+    <title> Katzenpension </title>
+</head>
+<header>
+    <nav role="navigation">
+        <div id="menuToggle">
+
+            <input type="checkbox"/>
+
+            <span></span>
+            <span></span>
+            <span></span>
+
+            <ul id="menu">
+                    <a href="#1">
+                        <li>Infos zu Katzen</li>
+                    </a>
+                    <a href="#2">
+                        <li>Wildkatzen</li>
+                    </a>
+                    <a href="#3">
+                        <li>Hauskatzen</li>
+                    </a>
+                    <a href="#4">
+                        <li>Streunerkatzen</li>
+                    </a>
+                    <a href="#5">
+                        <li>Babykatzen</li>
+                    </a>
+                    <a href="#6">
+                        <li>Bengalkatze</li>
+                        <a href="#7">
+                            <li>Tiger</li>
+                        </a>
+                    </a>
+                    <a href="#8">
+                        <li>Kontakt</li>
+                    </a>
+            </ul>
+        </div>
+    </nav>
+</header>
+
+<body style="font-family:Arial, Helvetica, sans-serif, sans-serif;color:#000000;">
+
+        <div id="wrapperHeader">
+                <div id="header">
+                    <img src="Katzen/headerrrr.jpg" alt="oh nein, ein Ladefehler!" />
+                </div>
+            </div>
+
+<div style="background-color:#8B0000;padding:15px;text-align:center;">
+    <h1></h1>
+</div>
+
+<div style="overflow:auto">
+    <div class="left">
+
+    </div>
+    <div style="overflow:auto">
+        <div class="left">
+
+        </div>
+
+
+
+        <div class="maina">
+            <h2>  </h2>
+            <div id="gal">
+                <a tabindex="0" href="#a2"><img src="Katzen/cat.jpg" /> </a>
+                <a tabindex="0" href="#a2"><img src="Katzen/cat2.jpg" /> </a>
+                <a tabindex="0" href="#a3"><img src="Katzen/cat3.jpg"/> </a>
+                <a tabindex="0" href="#a4"><img src="Katzen/cat4.jpg" /> </a>
+                <a tabindex="0" href="#a5"><img src="Katzen/cat8.jpg"/> </a>
+
+
+
+
+
+
+                <div id="ausgabe">
+                    <img src="Katzen/cat.jpg"/>
+                    <img src="Katzen/cat2.jpg"/>
+                    <img src="Katzen/cat3.jpg"/>
+                    <img src="Katzen/cat4.jpg"/>
+                    <img src="Katzen/cat8.jpg"/>
+
+                </div>
+            </div>
+        </div>
+
+    <div class="main">
+        <aside id="aside" class="asideright">
+        <section0 class="texte">
+        <h2>Allgemeine Informationen zu Katzen</h2>
+        <p>Die Hauskatze ist die Haustierform der Falbkatze. Sie ist ein Fleischfresser und zählt zu den beliebtesten Heimtieren.
+
+            Umgangssprachlich wird das Wort Hauskatze für alle Katzen genutzt, die in mehr oder weniger direktem Kontakt mit Menschen leben. Die Fachsprache der Züchter und Zuchtverbände beschränkt den Begriff Hauskatze auf Tiere mit breiter Vielfalt von Wuchstypen und Fellfarben, die keiner bestimmten, durch gezielte und dokumentierte Züchtung entstandenen Katzenrasse angehören.
+            Die Merkmale der Hauskatze schwanken je nach Verbreitungsgebiet. Bei den gezüchteten Formen sind sie von den Rassestandards abhängig, bei den kulturfolgenden Hauskatzen unterliegen sie dem jeweiligen Selektionsdruck, der von den natürlichen Umweltbedingungen abhängt.
+
+            Hauskatzen sind im Durchschnitt etwa 50 Zentimeter lang und 4 Kilogramm schwer mit einer großen Variationsbreite von ca. 2,5 kg bis ca. 8 kg. Männliche Tiere sind etwas größer als weibliche. Die Länge des Schwanzes beträgt etwa 25 bis 30 cm. Eine Ausnahme ist die schwanzlose Manx-Katze von der Insel Man. Die Schulterhöhe beträgt 30 bis 35 cm. In Verbreitungsgebieten mit kälterem Klima sind die Katzen allgemein schwerer und größer, in wärmeren Gebieten sind sie leichter. Die National Geographic Society (1981) gibt die durchschnittliche Kopf-Rumpf-Länge mehrerer beliebter Katzenrassen mit 46 cm und die Schwanzlänge mit 30 cm an. Der bisher schwerste dokumentierte Hauskater war der stark adipöse „Himmy“ aus Australien mit 21,2 kg
+<p>
+        Charakter
+        Da es sich bei der Hauskatze um keine Rassekatze handelt, haben die Tiere auch die unterschiedlichsten Charakterzüge. Diese reichen von scheu und zurückhaltend bis hin zu extrem anhänglich und verschmust. Es gibt ruhige Vertreter und äußert temperamentvolle Hauskatzen. Durch ihre Abstammung von den Wildkatzen besitzen die meisten Hauskatzen einen ausgeprägten Jagd- und Spieltrieb. Sie lieben es hinter Mäusen oder ersatzweise hinter Spielzeugen herzujagen.        
+</p>
+        </p>
+    </section0>
+        </aside>
+    </div>
+
+    <div class="C">
+            <section1 id="2" class="texte">
+                <h2> Wildkatze </h2>
+                <p>
+                    Europäische Wildkatze
+                    Felis silvestris
+                    Schulterhöhe: 35 bis 40 cm
+                    Gewicht: 2,5 bis 8 kg
+                    Lebensdauer: bis 15 Jahre
+                    Lebensraum: große, ruhige, alte Wälder
+                    Nahrung: Kleintiere, besonders Mäuse
+                    Fortpflanzung: Hauptpaarungszeit im Februar; 2 bis 6 Junge nach etwa 10 Wochen; Aufzucht in alten Baumhöhlen
+                    Verbreitung: ursprünglich Europa, Vorderasien; in Deutschland zeitweise fast ausgerottet; steigendes Vorkommen in Deutschland; gesichertes Vorkommen im Kellerwald
+
+                </p>
+                <section1>
+        </div>
+        <div class="C">
+            <section2 id="3" class="texte">
+                <h2> Hauskatze </h2>
+                <p>
+                    Die Hauskatze ist keine Katzenrasse im eigentlichen Sinne. In den meisten Fällen werden die Katzen, die es in den unterschiedlichsten Wuchstypen und Farbvarianten gibt, der Rasse EKH (Europäisch Kurzhaar) zugeordnet. Ihre Abstammung haben Hauskatzen von den Wildkatzen. Sie haben sich im Verlauf der Evolution immer mehr an das Leben mit uns Menschen angepasst und sind heutzutage vollkommen domestiziert.
+                </p>
+            </section2>
+        </div>
+
+        <div class="C">
+            <section6 id="4" class="texte">
+                <h2> Streunerkatze</h2>
+                <p>
+                    In Großstädten, ländlichen Gegenden und in Gewerbegebieten streunen die Katzen auf der Suche nach Nahrung und Unterschlupf umher. All diese Katzen waren einmal Haustiere, die ausgesetzt und sich selbst überlassen wurden. In deutschen Haushalten leben über 12 Millionen Katzen, die von ihren Besitzern zumeist gut versorgt werden.
+                </p>
+            </section6>
+        </div>
+
+        <div class="C">
+            <section3 id="5"class="texte">
+                <h2>Babykatze </h2>
+                <p>
+                    Wer die Wahl hat, hat bekanntlich die Qual: „Eine Rassekatze oder einen echten Mischling? Vom qualifizierten Züchter oder lieber von privat?“
+                    Viele Fragen, die Du Dir erst einmal durch den Kopf gehen lassen solltest, bevor Du Dich überstürzt hinreißen lässt, oder, weil gerade nach der Paarungszeit der Katzen – also im Frühjahr oder Herbst – ein Überangebot an jungen Kätzchen herrscht.
+            </section3>
+            </p>
+        </div>
+
+        <div class="C">
+            <section4 id="6" class="texte">
+                <h2> Bengalkatze </h2>
+                <p>
+                    Die Bengal hat ein außergewöhnlich elegantes Fellmuster aus fein gezeichneten Rosetten (Kreisen). Es sieht einem Leopardenfell zum Verwechseln ähnlich! Auch wenn die Katze durch ihren schlanken Körper und dem hübschen Äußeren sehr anmutig wirkt: Sie ist alles andere als „etepetete“ (= zimperplich, geziert), sondern eher so etwas wie eine Leistungssportlerin unter den Katzen.
+                </p>
+            </section4>
+        </div>
+
+        <div>
+            <h2> </h2>
+            <p>
+
+            </p>
+        </div>
+
+        <div id="7" class="C">
+            <section5  class="texte">
+                <h2>Tiger</h2>
+                <p>
+                    Der Tiger (Panthera tigris) ist eine in Asien verbreitete Großkatze. Er ist aufgrund seiner Größe und des charakteristischen dunklen Streifenmusters auf goldgelbem bis rotbraunem Grund unverwechselbar. Es gibt acht bis neun Unterarten, die als Festlandsunterarten und Inselunterarten unterschieden werden.
+
+                </p>
+            </section5>
+        </div>
+
+<footer>
+    <div id="8" class="right">
+        <h2>Kontakt</h2>
+        <p>Hochschule Furtwangen
+            Robert-Gerwig-Platz 1
+            78120 Furtwangen
+<p>
+            <a href="mailto:angelina.weibert@hs-furtwangen.de">E-Mail: angelina.weibert@hs-furtwangen.de</a>
+            </p>
+</p>           
+    </div>
+</footer>
+</div>
+</div>
+</body>
+</html>
