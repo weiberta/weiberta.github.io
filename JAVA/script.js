@@ -60,7 +60,7 @@ function feedTheCat() {
     hungry = false;
     document.getElementById("claim").innerHTML = "Schmatz";
     console.log(count.valueOf());
-    document.getElementById('fish').innerHTML += "<img src='fish.png'>";
+    document.getElementById('fish').innerHTML += "<img src=Cats/fish.png";
     count++;
     document.getElementById("zahl").innerHTML = count.toString() + text;
 }
