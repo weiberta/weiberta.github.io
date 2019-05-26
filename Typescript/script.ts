@@ -1,3 +1,6 @@
+
+
+
 console.log("Test1");
 // Dies ist ein Kommentar
 
@@ -9,10 +12,14 @@ window.onload = function () {
 function DoStuff1()
 {
     console.log("clicked on button 1");
+    console.log("I LOVE U")
     
 }
 
 function DoStuff2()
 {
-    console.log("button 2 was clicked");
+    alert("meow");
 }
+
+
+
