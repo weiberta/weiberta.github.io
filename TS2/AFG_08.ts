@@ -30,7 +30,7 @@ let monsterStimmung = ["traurig", "aggressiv", "lustig", "depressiv", "melanchon
 
 //////Aufgabe: Neues Arrays erstellen
 
-let monsterBilder = ["c1.png", "c0.png", "c2.png", "c3.png", "pinguin.png", "elefant.png"];
+let monsterBilder = ["/Users/awb/WebstormProjects/JS2/TS2/c0.png", "c1.png", "c2.png", "c3.png", "pinguin.png", "elefant.png"];
 
 // Initialisierung der Anzahl an Monstern
 
