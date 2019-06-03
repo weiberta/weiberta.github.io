@@ -27,7 +27,7 @@ console.log(Ask + Scale);
 console.log("_______________________________________________________________________");
 let hungry = Boolean(true);
 let count = 0;
-let text = " Fische hat die Kisja gesanckt";
+let text = " Fische hat die Kisja gesnackt";
 window.onload = function () {
     // Skript soll mehrere Funktionen enthalten
     // DoStuff1, mouseOver, mouseOut, feedTheCat
