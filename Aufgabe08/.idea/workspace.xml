@@ -1,0 +1,389 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="76a12504-8f73-475e-a755-60edf172dfaf" name="Default Changelist" comment="" />
+    <ignored path="$PROJECT_DIR$/.tmp/" />
+    <ignored path="$PROJECT_DIR$/temp/" />
+    <ignored path="$PROJECT_DIR$/tmp/" />
+    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileEditorManager">
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/62_TS-Dungeon.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="480">
+              <caret line="32" selection-start-line="32" selection-end-line="32" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/js/62-TS-Example.ts">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="360">
+              <caret line="225" column="41" lean-forward="true" selection-start-line="225" selection-start-column="41" selection-end-line="225" selection-end-column="41" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$APPLICATION_CONFIG_DIR$/scratches/scratch.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="3885">
+              <caret line="259" column="1" selection-start-line="259" selection-start-column="1" selection-end-line="259" selection-end-column="1" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+    </leaf>
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="CSS File" />
+        <option value="TypeScript File" />
+      </list>
+    </option>
+  </component>
+  <component name="FindInProjectRecents">
+    <findStrings>
+      <find>Image</find>
+      <find>monsterItem</find>
+      <find>MonsterItem</find>
+      <find>Stein</find>
+      <find>Oh</find>
+      <find>update</find>
+      <find>upda</find>
+      <find>upd</find>
+      <find>Item</find>
+      <find>stein</find>
+      <find>Bildquellen</find>
+      <find>remove</find>
+      <find>generate</find>
+      <find>generateMonster</find>
+      <find>generateMonsterName</find>
+      <find>return &quot;Hello, &quot; + person.firstName + &quot; &quot; + person.lastName;</find>
+      <find>number</find>
+      <find>count</find>
+      <find>random</find>
+      <find>monsterImg.setAttribute</find>
+      <find>newMonster</find>
+      <find>updatehtml</find>
+      <find>monsterGenerateHTMLAll</find>
+      <find>generateMonsterModifer</find>
+      <find>monsterarray</find>
+      <find>xp</find>
+      <find>tempLevel</find>
+      <find>updateplayerlevel</find>
+      <find>playerXPperLevel</find>
+      <find>monsterArray</find>
+    </findStrings>
+  </component>
+  <component name="IdeDocumentHistory">
+    <option name="CHANGED_PATHS">
+      <list>
+        <option value="$PROJECT_DIR$/js/VORLAGE2.ts" />
+        <option value="$PROJECT_DIR$/js/bikder.ts" />
+        <option value="$PROJECT_DIR$/js/vglts.ts" />
+        <option value="$PROJECT_DIR$/stylesheet.css" />
+        <option value="$PROJECT_DIR$/css/61-style.css" />
+        <option value="$APPLICATION_CONFIG_DIR$/scratches/adsfghhhh.ts" />
+        <option value="$APPLICATION_CONFIG_DIR$/scratches/scratch.ts" />
+        <option value="$PROJECT_DIR$/js/VORLAGE.ts" />
+        <option value="$APPLICATION_CONFIG_DIR$/scratches/scratch.html" />
+        <option value="$PROJECT_DIR$/62_TS-Dungeon.html" />
+        <option value="$PROJECT_DIR$/js/https _rolandheer.github.io_Aufgabe_9_Dungeon-Example_js_62-TS-Example.ts" />
+        <option value="$PROJECT_DIR$/js/62-TS-Example.ts" />
+      </list>
+    </option>
+  </component>
+  <component name="ProjectFrameBounds" extendedState="6" fullScreen="true">
+    <option name="width" value="1440" />
+    <option name="height" value="900" />
+  </component>
+  <component name="ProjectView">
+    <navigator proportions="" version="1">
+      <foldersAlwaysOnTop value="true" />
+    </navigator>
+    <panes>
+      <pane id="ProjectPane">
+        <subPane>
+          <expand>
+            <path>
+              <item name="Aufgabe08" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Aufgabe08" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="Aufgabe08" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Aufgabe08" type="462c0819:PsiDirectoryNode" />
+              <item name="imgs" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="Aufgabe08" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Aufgabe08" type="462c0819:PsiDirectoryNode" />
+              <item name="js" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="Aufgabe08" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Aufgabe08" type="462c0819:PsiDirectoryNode" />
+              <item name="js" type="462c0819:PsiDirectoryNode" />
+              <item name="62-TS-Example.ts" type="620a8d5e:NestingTreeNode" />
+            </path>
+            <path>
+              <item name="Aufgabe08" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Scratches and Consoles" type="1a2a3e82:ScratchProjectViewPane$MyProjectNode" />
+            </path>
+            <path>
+              <item name="Aufgabe08" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Scratches and Consoles" type="1a2a3e82:ScratchProjectViewPane$MyProjectNode" />
+              <item name="Scratches" type="d62648e6:ScratchProjectViewPane$MyRootNode" />
+            </path>
+          </expand>
+          <select />
+        </subPane>
+      </pane>
+      <pane id="Scope" />
+    </panes>
+  </component>
+  <component name="PropertiesComponent">
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="com.intellij.ide.scratch.LRUPopupBuilder$1/New Scratch File" value="TypeScript" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/js" />
+    <property name="list.type.of.created.stylesheet" value="CSS" />
+    <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
+    <property name="nodejs_npm_path_reset_for_default_project" value="true" />
+    <property name="settings.editor.selected.configurable" value="settings.typescriptcompiler" />
+    <property name="ts.external.directory.path" value="$APPLICATION_HOME_DIR$/plugins/JavaScriptLanguage/jsLanguageServicesImpl/external" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/js" />
+    </key>
+  </component>
+  <component name="RunDashboard">
+    <option name="ruleStates">
+      <list>
+        <RuleState>
+          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
+        </RuleState>
+        <RuleState>
+          <option name="name" value="StatusDashboardGroupingRule" />
+        </RuleState>
+      </list>
+    </option>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="76a12504-8f73-475e-a755-60edf172dfaf" name="Default Changelist" comment="" />
+      <created>1559743430324</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1559743430324</updated>
+      <workItem from="1559743431497" duration="30999000" />
+      <workItem from="1559828467860" duration="7907000" />
+      <workItem from="1560710812789" duration="1045000" />
+      <workItem from="1560714271899" duration="465000" />
+      <workItem from="1560714747395" duration="4742000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TimeTrackingManager">
+    <option name="totallyTimeSpent" value="45158000" />
+  </component>
+  <component name="TodoView">
+    <todo-panel id="selected-file">
+      <is-autoscroll-to-source value="true" />
+    </todo-panel>
+    <todo-panel id="all">
+      <are-packages-shown value="true" />
+      <is-autoscroll-to-source value="true" />
+    </todo-panel>
+  </component>
+  <component name="ToolWindowManager">
+    <frame x="0" y="0" width="1920" height="1080" extended-state="6" />
+    <editor active="true" />
+    <layout>
+      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.49879518" visible="true" weight="0.24960506" />
+      <window_info id="Structure" order="1" sideWeight="0.50120485" side_tool="true" weight="0.24947146" />
+      <window_info id="Favorites" order="2" side_tool="true" />
+      <window_info anchor="bottom" id="Message" order="0" />
+      <window_info anchor="bottom" id="Find" order="1" weight="0.32970297" />
+      <window_info anchor="bottom" id="Run" order="2" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
+      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
+      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
+      <window_info anchor="bottom" id="TODO" order="6" weight="0.32891566" />
+      <window_info anchor="bottom" id="Version Control" order="7" />
+      <window_info anchor="bottom" id="Docker" order="8" show_stripe_button="false" />
+      <window_info active="true" anchor="bottom" id="TypeScript" order="9" visible="true" weight="0.29504952" />
+      <window_info anchor="bottom" id="Terminal" order="10" weight="0.32871288" />
+      <window_info anchor="bottom" id="Event Log" order="11" side_tool="true" />
+      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
+      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
+      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
+    </layout>
+    <layout-to-restore>
+      <window_info id="Favorites" order="0" side_tool="true" />
+      <window_info content_ui="combo" id="Project" order="1" sideWeight="0.49879518" visible="true" weight="0.24947146" />
+      <window_info id="Structure" order="2" sideWeight="0.50120485" side_tool="true" weight="0.24947146" />
+      <window_info anchor="bottom" id="Docker" order="0" show_stripe_button="false" />
+      <window_info anchor="bottom" id="TypeScript" order="1" weight="0.32891566" />
+      <window_info anchor="bottom" id="Terminal" order="2" weight="0.32891566" />
+      <window_info anchor="bottom" id="Event Log" order="3" side_tool="true" />
+      <window_info anchor="bottom" id="Version Control" order="4" />
+      <window_info anchor="bottom" id="Message" order="5" />
+      <window_info anchor="bottom" id="Find" order="6" />
+      <window_info anchor="bottom" id="Run" order="7" />
+      <window_info anchor="bottom" id="Debug" order="8" weight="0.4" />
+      <window_info anchor="bottom" id="Cvs" order="9" weight="0.25" />
+      <window_info anchor="bottom" id="Inspection" order="10" weight="0.4" />
+      <window_info anchor="bottom" id="TODO" order="11" />
+      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
+      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
+      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
+    </layout-to-restore>
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="1" />
+    <option name="exactExcludedFiles">
+      <list>
+        <option value="$PROJECT_DIR$/js/62-TS-Example.js.map" />
+        <option value="$PROJECT_DIR$/js/62-TS-Example.js" />
+        <option value="$PROJECT_DIR$/js/VORLAGE.js" />
+        <option value="$PROJECT_DIR$/js/VORLAGE.js.map" />
+        <option value="$PROJECT_DIR$/js/VORLAGE2.js" />
+        <option value="$PROJECT_DIR$/js/VORLAGE2.js.map" />
+        <option value="$PROJECT_DIR$/js/bikder.js.map" />
+        <option value="$PROJECT_DIR$/js/bikder.js" />
+        <option value="$PROJECT_DIR$/js/vglts.js.map" />
+        <option value="$PROJECT_DIR$/js/vglts.js" />
+        <option value="$PROJECT_DIR$/js/https _rolandheer.github.io_Aufgabe_9_Dungeon-Example_js_62-TS-Example.js" />
+        <option value="$PROJECT_DIR$/js/https _rolandheer.github.io_Aufgabe_9_Dungeon-Example_js_62-TS-Example.js.map" />
+      </list>
+    </option>
+  </component>
+  <component name="editorHistoryManager">
+    <entry file="file://$USER_HOME$/Desktop/62-TS-Example.js" />
+    <entry file="file://$PROJECT_DIR$/js/VORLAGE2.ts">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="131">
+          <caret line="19" selection-start-line="19" selection-end-line="19" />
+          <folding>
+            <element signature="n#!!doc" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/js/bikder.ts" />
+    <entry file="file://$PROJECT_DIR$/stylesheet.css" />
+    <entry file="file://$PROJECT_DIR$/css/61-style.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="423">
+          <caret line="89" column="1" selection-start-line="89" selection-start-column="1" selection-end-line="89" selection-end-column="1" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/imgs/stink.png">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/imgs/g1.gif" />
+    <entry file="file://$PROJECT_DIR$/imgs/g3.gif">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/imgs/g2.gif">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/imgs/g5.gif">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$APPLICATION_CONFIG_DIR$/scratches/scratch.ts">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="422">
+          <caret line="235" column="1" selection-start-line="235" selection-start-column="1" selection-end-line="235" selection-end-column="1" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/imgs/g7.gif">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$APPLICATION_CONFIG_DIR$/scratches/adsfghhhh.ts">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="775">
+          <caret line="235" column="1" selection-start-line="235" selection-start-column="1" selection-end-line="235" selection-end-column="1" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/imgs/g4.gif">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/imgs/p1.png">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$APPLICATION_CONFIG_DIR$/scratches/scratch.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="3885">
+          <caret line="259" column="1" selection-start-line="259" selection-start-column="1" selection-end-line="259" selection-end-column="1" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/js/VORLAGE.ts">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1155">
+          <caret line="77" column="42" selection-start-line="77" selection-start-column="42" selection-end-line="77" selection-end-column="42" />
+          <folding>
+            <element signature="n#!!doc" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/js/62-TS-Example.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="300">
+          <caret line="20" column="46" selection-start-line="20" selection-start-column="46" selection-end-line="20" selection-end-column="46" />
+          <folding>
+            <element signature="n#!!doc" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/js/vglts.ts">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="460">
+          <caret line="160" column="12" lean-forward="true" selection-start-line="160" selection-start-column="12" selection-end-line="160" selection-end-column="12" />
+          <folding>
+            <element signature="n#!!doc" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/js/https _rolandheer.github.io_Aufgabe_9_Dungeon-Example_js_62-TS-Example.ts">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="330">
+          <caret line="199" column="148" selection-start-line="199" selection-start-column="114" selection-end-line="199" selection-end-column="148" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/62_TS-Dungeon.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="480">
+          <caret line="32" selection-start-line="32" selection-end-line="32" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/js/62-TS-Example.ts">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="360">
+          <caret line="225" column="41" lean-forward="true" selection-start-line="225" selection-start-column="41" selection-end-line="225" selection-end-column="41" />
+        </state>
+      </provider>
+    </entry>
+  </component>
+</project>
