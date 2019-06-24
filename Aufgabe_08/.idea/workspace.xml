@@ -13,7 +13,7 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="false">
+      <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/62_TS-Dungeon.html">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="480">
@@ -22,7 +22,7 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/js/62-TS-Example.ts">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="444">
@@ -116,7 +116,22 @@
     </navigator>
     <panes>
       <pane id="Scope" />
-      <pane id="ProjectPane" />
+      <pane id="ProjectPane">
+        <subPane>
+          <expand>
+            <path>
+              <item name="Aufgabe_08" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Aufgabe_08" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="Aufgabe_08" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Aufgabe_08" type="462c0819:PsiDirectoryNode" />
+              <item name="imgs" type="462c0819:PsiDirectoryNode" />
+            </path>
+          </expand>
+          <select />
+        </subPane>
+      </pane>
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -162,12 +177,12 @@
       <workItem from="1560710812789" duration="1045000" />
       <workItem from="1560714271899" duration="465000" />
       <workItem from="1560714747395" duration="4742000" />
-      <workItem from="1561395002795" duration="14000" />
+      <workItem from="1561395002795" duration="64000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="45172000" />
+    <option name="totallyTimeSpent" value="45222000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -182,7 +197,7 @@
     <frame x="0" y="0" width="1440" height="900" extended-state="0" />
     <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.49879518" visible="true" weight="0.24947146" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.49879518" visible="true" weight="0.24947146" />
       <window_info id="Structure" order="1" sideWeight="0.50120485" side_tool="true" weight="0.24947146" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
@@ -302,13 +317,6 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/js/vglts.ts" />
     <entry file="file://$PROJECT_DIR$/js/https _rolandheer.github.io_Aufgabe_9_Dungeon-Example_js_62-TS-Example.ts" />
-    <entry file="file://$PROJECT_DIR$/62_TS-Dungeon.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="480">
-          <caret line="32" selection-start-line="32" selection-end-line="32" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$APPLICATION_CONFIG_DIR$/scratches/scratch.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="3885">
@@ -320,6 +328,13 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="444">
           <caret line="34" lean-forward="true" selection-start-line="34" selection-end-line="34" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/62_TS-Dungeon.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="480">
+          <caret line="32" selection-start-line="32" selection-end-line="32" />
         </state>
       </provider>
     </entry>
