@@ -72,7 +72,7 @@ function monsterGenerateHTML() {
     monstAge.innerHTML = "Alter: " + monsterArray[monsterArray.length - 1].monsterAge + " Jahr(e)";
     holdingDiv.appendChild(monstAge); //Monster-Alter wird eingefÃ¼gt
     let monsterBtn = document.createElement("BUTTON"); // Erstelle ein <button>-Element
-    monsterBtn.innerHTML = "Monster bekÃ¤mpfen!"; // VerÃ¤ndere den Inhalt des HTML-Elementes. Der genaue Text ist dabei euch Ã¼berlassen.
+    monsterBtn.innerHTML = "Kämpfen!"; // VerÃ¤ndere den Inhalt des HTML-Elementes. Der genaue Text ist dabei euch Ã¼berlassen.
     holdingDiv.appendChild(monsterBtn); // FÃ¼ge den Button zu dem holding-div hinzu.
     let monsterCount = monsterArray.length; // Die aktuelle Anzahl vorhandener Monster, zudem auch die neue Zahl fÃ¼r das Monster-Array.
     console.log("Aktuelle Anzahl an Monstern: " + monsterCount);
