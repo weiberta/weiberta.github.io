@@ -3,7 +3,7 @@ var L06_Server;
 (function (L06_Server) {
     window.addEventListener("load", handleLoad);
     let form;
-    let url = "http://localhost:5001";
+    let url = "https://kisjasserver.herokuapp.com/";
     // >>>>>>>>>>>>>>>>> HANDLE LOAD <<<<<<<<<<<<<<<<<<<
     async function handleLoad(_event) {
         console.log("Willkommen");
