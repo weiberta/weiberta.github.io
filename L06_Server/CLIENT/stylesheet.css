@@ -1,4 +1,7 @@
-body {margin: 2%;}
+@media screen and (max-width: 600px)
+
+body {
+    margin:2%};
 
 header{ grid-column: span ;
         text-align: center;}
@@ -28,7 +31,7 @@ fieldset{ margin: 10px 5px; }
 
 
 text {font-family: "Avenir";}
-h1{ font-size: 45px; margin-top: 1%;}
+h1{ font-size: 45px, margin-top: 1%, text-allign: center;}
 h2 {font-size: 25px;margin-top: 1%; }
 h3 {font-size: 18px; text-align:center; font-style: italic; color: #7c7c7c;}
 

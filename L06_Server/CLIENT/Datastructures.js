@@ -50,12 +50,12 @@ var L06_Server;
     }
     // SAVE DATA
     async function submitData(_event) {
-        // alert("Dein Feuerwerk wurde in der Datenbank gespeichert");
+        alert("Dein Feuerwerk wurde in der Datenbank gespeichert");
         console.log("Dein Feuerwerk wurde in der Datenbank gespeichert");
         let formData = new FormData(form);
         let query = new URLSearchParams(formData);
         let response = await fetch(url + "?" + query.toString());
-        await fetch(url + "?" + query.toString()); //
+        // await fetch(url + "?" + query.toString()); //
         let responseText = await response.text();
         alert(responseText);
     }

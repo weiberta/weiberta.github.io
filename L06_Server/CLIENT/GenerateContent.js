@@ -2,7 +2,6 @@
 var L06_Server;
 (function (L06_Server) {
     function generateContent(_data) {
-        console.log(_data); // !!  EXPORTIERT + in HTML implementieren werden
         for (let category in _data) { // for in gibt in der Variable nur die Schlüssel wieder (Schlüssel ist die Kategorie)
             let items = _data[category]; // ITEMS aus Data.json exportieren
             let group = null; // group muss 1 x deklariert werden = unklar was mit den vielen groups gemacht werden soll (zu viele Funktionsbereiche)

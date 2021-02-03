@@ -8,11 +8,9 @@ namespace L06_Server {
     }
 
    export function generateContent(_data: Data) {
-        console.log(_data);                           // !!  EXPORTIERT + in HTML implementieren werden
 
        for(let category in _data) {       // for in gibt in der Variable nur die Schlüssel wieder (Schlüssel ist die Kategorie)
            let items: Item [] = _data[category];  // ITEMS aus Data.json exportieren
-
 
           let group: HTMLElement | null = null;   // group muss 1 x deklariert werden = unklar was mit den vielen groups gemacht werden soll (zu viele Funktionsbereiche)
           switch (category) {                           // switch (KEY)
@@ -28,7 +26,6 @@ namespace L06_Server {
                   case "Farbe":
                       group = createSelect(items,category);
                       break;
-
               default:
                   break;
           }

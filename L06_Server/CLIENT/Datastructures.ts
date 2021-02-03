@@ -2,7 +2,7 @@ namespace L06_Server {
     window.addEventListener("load", handleLoad);
 
     let form: HTMLFormElement;
-    let url: string = "https://kisjasserver.herokuapp.com/";
+    let url: string = "http://localhost:5001";
 
     // >>>>>>>>>>>>>>>>> HANDLE LOAD <<<<<<<<<<<<<<<<<<<
 
@@ -70,13 +70,13 @@ namespace L06_Server {
 
     // SAVE DATA
     async function submitData (_event: Event): Promise<void> {      // funktion wegen await asynchron, gibt einen promise vom typen void zurück
-       // alert("Dein Feuerwerk wurde in der Datenbank gespeichert");
+        alert("Dein Feuerwerk wurde in der Datenbank gespeichert");
         console.log("Dein Feuerwerk wurde in der Datenbank gespeichert");
 
         let formData: FormData = new FormData(form);
         let query: URLSearchParams = new URLSearchParams(<any>formData);
         let response: Response = await fetch(url + "?" + query.toString());
-        await fetch(url + "?" + query.toString()); //
+       // await fetch(url + "?" + query.toString()); //
         let responseText: string = await response.text();
         alert(responseText);
     }
