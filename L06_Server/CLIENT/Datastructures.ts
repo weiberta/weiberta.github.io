@@ -2,7 +2,7 @@ namespace L06_Server {
     window.addEventListener("load", handleLoad);
 
     let form: HTMLFormElement;
-    let url: string = "http://localhost:5001";
+    let url: string = "https://kisjasserver.herokuapp.com/";
 
     // >>>>>>>>>>>>>>>>> HANDLE LOAD <<<<<<<<<<<<<<<<<<<
 
