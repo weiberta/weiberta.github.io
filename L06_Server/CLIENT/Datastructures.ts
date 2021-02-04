@@ -40,7 +40,7 @@ namespace L06_Server {
         let order: HTMLDivElement = <HTMLDivElement>document.querySelector("div#order"); // div mit id-Attribut order
         order.innerHTML = " "; // leeres order-Feld beim Start (" " = leerer String)
 
-        let formData: FormData = new FormData(document.forms[0]); // formData: (vom Typen) FormData
+            formData: FormData = new FormData(document.forms[0]); // NICHT LET!!!formData: (vom Typen) FormData 
         for (let entry of formData) {
             console.log(entry[0] + ": " + entry[1]);
             let item: HTMLInputElement = <HTMLInputElement>document.querySelector("[value='" +  entry[1] + "']");
