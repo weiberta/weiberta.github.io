@@ -1,0 +1,47 @@
+body{
+    font-family: Avenir Next, serif;
+    text-align: center;
+    background: #ffffff;
+}
+
+h1 {
+    font-size:40px;
+    color: #8a0000;
+    margin-top:10%;
+    margin-bottom: 2%;
+}
+
+p {
+    font-size: 20px;
+    font-style: italic;
+    margin-top: -20px;
+}
+.button{
+    color: black;
+    cursor: crosshair;
+
+    background-color: #e5e5e5;
+    padding: 20px 42px;
+    text-align: center;
+    text-decoration: none;
+    font-size: 30px;
+    width: 250px;
+
+    margin-top: 6%;
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
+}
+
+.button1 { border: 3px solid black;
+    padding: 25px;
+    border-bottom-left-radius: 50px;
+    border-top-right-radius: 50px;}
+
+/*          .button2 { background-color: lightskyblue;}      // LINK ACTIVITYDIAGRAM, falls er anders als button1 aussieht    */
+
+
+.button:hover{
+    opacity: 0.5;
+}
+
