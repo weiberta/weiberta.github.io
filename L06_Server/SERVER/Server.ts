@@ -2,12 +2,12 @@ import * as Http from "http";
 import * as Url from "url";
 
 // SERVER
-export namespace Coronahilfe {
+export namespace L06_Server {
     let server: Http.Server = Http.createServer();
     console.log(server);
 
     //
-    let port: number | string | undefined  = process.env.PORT;
+    let port: number | string | undefined = process.env.PORT;
     if (port == undefined)
         port = 5001;
 

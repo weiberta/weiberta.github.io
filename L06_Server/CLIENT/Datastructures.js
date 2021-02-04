@@ -3,7 +3,7 @@ var L06_Server;
 (function (L06_Server) {
     window.addEventListener("load", handleLoad);
     let form;
-    let url = "https://kisjasserver.herokuapp.com/";
+    let url = "http://localhost:5001";
     // >>>>>>>>>>>>>>>>> HANDLE LOAD <<<<<<<<<<<<<<<<<<<
     async function handleLoad(_event) {
         console.log("Willkommen");
@@ -12,7 +12,7 @@ var L06_Server;
         let data = JSON.parse(selection);
         L06_Server.generateContent(data);
         // >>>>>>>>>>>>><<<<<<<<<<<<<
-        let form = document.querySelector("form");
+        form = document.querySelector("form");
         let slider = document.querySelector("input#amount");
         let buttonloeschen = document.querySelector("#buttonloeschen"); // DELETE
         let buttonspeichern = document.querySelector("#buttonspeichern");
@@ -50,12 +50,13 @@ var L06_Server;
     }
     // SAVE DATA
     async function submitData(_event) {
-        alert("Dein Feuerwerk wurde in der Datenbank gespeichert");
-        console.log("Dein Feuerwerk wurde in der Datenbank gespeichert");
+        alert("Dein Feuerwerk wird in der Datenbank gespeichert");
+        console.log("Dein Feuerwerk wird in der Datenbank gespeichert");
         let formData = new FormData(form);
         let query = new URLSearchParams(formData);
+        console.log(query.toString());
         let response = await fetch(url + "?" + query.toString());
-        // await fetch(url + "?" + query.toString()); //
+        await fetch(url + "?" + query.toString()); //
         let responseText = await response.text();
         alert(responseText);
     }
