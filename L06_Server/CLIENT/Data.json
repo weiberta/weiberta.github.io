@@ -1,27 +1,29 @@
 {
     "Feuerwerkskoerper": [
-    { "name": "Rakete" },
-    { "name": "Bodenfeuerwerk" },
-    { "name": "Batterie" }
+    { "name": "Rakete " },
+    { "name": "Bodenfeuerwerk " },
+    { "name": "Batterie " }
 ],
     "Explosionsform": [
-    { "name": "Kreisfoermig" },
-    { "name": "Regenschauer" },
-    { "name": "Sternfoermig" },
-    { "name": "Blumenfoermig" }
+    { "name": "Kreisfoermig " },
+    { "name": "Regenschauer " },
+    { "name": "Sternfoermig " },
+    { "name": "Blumenfoermig " }
 ],
     "Explosionsradius": [
-    { "name": "Klein"  },
-    { "name": "Normal" },
-    { "name": "Groß" },
-    { "name": "Xtragroß"}
+    { "name": "Klein "  },
+    { "name": "Norma l" },
+    { "name": "Groß " },
+    { "name": "Xtragroß "}
 ],
 
     "Farbe": [
-    { "name": "Rot"  },
-    { "name": "Blau" },
-    { "name": "Grün" },
-    { "name": "Gelb" },
-    { "name": "Pink" }
- ]
+    { "name": "Rot "  },
+    { "name": "Blau"  },
+    { "name": "Grün"  },
+    { "name": "Gelb"  },
+    { "name": "Pink"  },
+],
+
+    ]
 }

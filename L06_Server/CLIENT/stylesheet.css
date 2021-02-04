@@ -1,4 +1,4 @@
-@media screen and (max-width: 600px);
+@media screen and (max-width: 600px) ;
 
 body {
     margin-left: 2% }
@@ -60,12 +60,12 @@ p{ margin-top: -30px;
 button{
     float: right;
     border: thin solid black;
-    font-size: 18px;
+    font-size: 13px;
 
 
     margin-top: 2%;
     height: 50px;
-    width: 220px;}
+    width: 150px;}
 
 #buttonloeschen { margin-right: 10%;}
 #buttonspeichern { margin-right:7.5%;}

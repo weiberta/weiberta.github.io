@@ -16,12 +16,14 @@ var L06_Server;
         form = document.querySelector("form");
         let slider = document.querySelector("input#amount");
         let buttonloeschen = document.querySelector("#buttonloeschen"); // DELETE
-        let buttonspeichern = document.querySelector("#buttonspeichern");
+        /*NEU*/ let buttonspeichern = document.querySelector("#buttonspeichern");
+        let buttonsenden = document.querySelector("#buttonsenden");
         // <<<< ÖHRCHEN >>>>
         form.addEventListener("change", handleChange);
         slider.addEventListener("input", displayAmount);
         buttonloeschen.addEventListener("click", deleteData); // DELETE
-        buttonspeichern.addEventListener("click", submitData);
+        buttonspeichern.addEventListener("click", saveData);
+        buttonsenden.addEventListener("click", submitData);
     }
     // >>>>>>>>>>>>>>>>> HANDLE CHANGE <<<<<<<<<<<<<<<<<<<
     function handleChange(_event) {
@@ -29,7 +31,7 @@ var L06_Server;
         order.innerHTML = " "; // leeres order-Feld beim Start (" " = leerer String)
         let formData = new FormData(document.forms[0]); // formData: (vom Typen) FormData
         for (let entry of formData) {
-            console.log(entry[0] + ": " + entry[1]);
+            // console.log(entry[0] + ": " + entry[1]); //grau: während Auswahl nichts anzeigt
             let item = document.querySelector("[value='" + entry[1] + "']");
             // let value: string = String(item.getAttribute("value"));
             //    order.innerHTML += item.name + ":  " + item.value + "  ";
@@ -50,10 +52,10 @@ var L06_Server;
         console.log("\n" + "    ♦—◊——◊——◊—〈 AUSWAHL GELÖSCHT 〉—◊——◊——◊—♦" + "\n" + "    ");
     }
     // SAVE DATA
-    async function submitData(_event) {
-        console.log("   " + "\n" + "⌈————————————————————————————————————————————————————⌉ " + "\n" +
-            "|  Dein Feuerwerk wird in der Datenbank gespeichert  |" + "\n" +
-            "⌊————————————————————————————————————————————————————⌋ "
+    async function saveData(_event) {
+        console.log("   " + "\n" + "⌈———————————————————————————————————————————————————⌉ " + "\n" +
+            "| DEIN FEUERWERK WURDE IN DER DATENBANK aufgenommen |" + "\n" +
+            "⌊———————————————————————————————————————————————————⌋ "
             + "\n" + "  " + "\n");
         let formData = new FormData(form);
         let query = new URLSearchParams(formData);
@@ -62,6 +64,18 @@ var L06_Server;
         let responseText = await response.text();
         console.log(responseText);
         alert(responseText);
+    }
+    L06_Server.saveData = saveData;
+    // SUBMIT DATA TO CONSOLE
+    async function submitData(_event) {
+        let formData = new FormData(document.forms[0]);
+        let query = new URLSearchParams(formData);
+        let response = await fetch(url + "?" + query.toString());
+        await fetch(url + "?" + query.toString());
+        let responseText = await response.text();
+        console.log("\n" + "   ♦—◊——◊——◊—〈 AUSWAHL ÜBERMITTELT 〉—◊——◊——◊—♦" + "\n" + "   ");
+        console.log(responseText + "\n" + "   ");
+        // console.log("\n" + "♦———————————————————————————————————————————————♦"   );
     }
 })(L06_Server || (L06_Server = {}));
 //# sourceMappingURL=Datastructures.js.map
