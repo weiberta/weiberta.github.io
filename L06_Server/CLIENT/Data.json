@@ -3,19 +3,19 @@
     { "name": "Rakete " },
     { "name": "Bodenfeuerwerk " },
     { "name": "Batterie " }
-],
+    ],
     "Explosionsform": [
     { "name": "Kreisfoermig " },
     { "name": "Regenschauer " },
     { "name": "Sternfoermig " },
     { "name": "Blumenfoermig " }
-],
+    ],
     "Explosionsradius": [
     { "name": "Klein "  },
     { "name": "Norma l" },
     { "name": "Groß " },
     { "name": "Xtragroß "}
-],
+    ],
 
     "Farbe": [
     { "name": "Rot "  },
@@ -23,7 +23,6 @@
     { "name": "Grün"  },
     { "name": "Gelb"  },
     { "name": "Pink"  },
-],
+    ],
 
-    
 }
