@@ -2,7 +2,7 @@ namespace L06_Server {
     window.addEventListener("load", handleLoad);
 
     let form: HTMLFormElement;
-    let url: string = "http://localhost:5001";
+    let url: string = "https://kisjasserver.herokuapp.com/"; // oder lokal aufsetzen mit localhost
 
     // >>>>>>>>>>>>>>>>> HANDLE LOAD <<<<<<<<<<<<<<<<<<<
 
@@ -70,7 +70,7 @@ namespace L06_Server {
 
     // SAVE DATA
     async function submitData(_event: Event): Promise<void> {      // funktion wegen await asynchron, gibt einen promise vom typen void zurück
-        alert("Dein Feuerwerk wird in der Datenbank gespeichert");
+        //alert("Dein Feuerwerk wird in der Datenbank gespeichert");
         console.log("Dein Feuerwerk wird in der Datenbank gespeichert");
 
         let formData: FormData = new FormData(form);
