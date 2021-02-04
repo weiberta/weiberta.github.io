@@ -3,10 +3,10 @@ var L06_Server;
 (function (L06_Server) {
     window.addEventListener("load", handleLoad);
     let form;
-    let url = "http://localhost:5001";
+    let url = "https://kisjasserver.herokuapp.com/";
     // >>>>>>>>>>>>>>>>> HANDLE LOAD <<<<<<<<<<<<<<<<<<<
     async function handleLoad(_event) {
-        console.log("Willkommen");
+        console.log("  〈 Willkommen  〉  " + "\n" + "—————————————————");
         let response = await fetch("Data.json"); // fetch soll nicht sofort "reinspringen",
         let selection = await response.text(); // (bei ihm offer) deswegen await! bis Daten geladen sind > asynchronisieren + promise
         let data = JSON.parse(selection);
