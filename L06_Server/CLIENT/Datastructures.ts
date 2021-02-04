@@ -2,12 +2,12 @@ namespace L06_Server {
     window.addEventListener("load", handleLoad);
 
     let form: HTMLFormElement;
-    let url: string = "http://localhost:5001";
+    let url: string = "https://kisjasserver.herokuapp.com/";
 
     // >>>>>>>>>>>>>>>>> HANDLE LOAD <<<<<<<<<<<<<<<<<<<
 
     async function handleLoad(_event: Event): Promise<void> {
-        console.log("Willkommen");
+        console.log("  〈 Willkommen  〉  "+ "\n" +"—————————————————");
 
 
         let response: Response = await fetch("Data.json"); // fetch soll nicht sofort "reinspringen",
