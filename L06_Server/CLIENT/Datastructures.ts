@@ -7,7 +7,8 @@ namespace L06_Server {
     // >>>>>>>>>>>>>>>>> HANDLE LOAD <<<<<<<<<<<<<<<<<<<
 
     async function handleLoad(_event: Event): Promise<void> {
-        console.log("  〈 Willkommen  〉  "+ "\n" +"—————————————————");
+        console.log("————————————〈  W i l l k o m m e n  〉————————————"
+                    + "\n" + "     " );
 
 
         let response: Response = await fetch("Data.json"); // fetch soll nicht sofort "reinspringen",
@@ -64,21 +65,25 @@ namespace L06_Server {
     // DELETE DATA
     function deleteData(): void {
         let order: HTMLDivElement = <HTMLDivElement>document.querySelector("div#order");
-        order.innerHTML = "";
-        console.log("Deine Auswahl wurde zurückgesetzt.");
+        order.innerHTML = "Deine Zusammenstellung ...";
+
+        console.log("\n" + "    ♦—◊——◊——◊—〈 AUSWAHL GELÖSCHT 〉—◊——◊——◊—♦" + "\n" + "    " );
     }
 
     // SAVE DATA
     async function submitData(_event: Event): Promise<void> {      // funktion wegen await asynchron, gibt einen promise vom typen void zurück
-        alert("Dein Feuerwerk wird in der Datenbank gespeichert");
-        console.log("Dein Feuerwerk wird in der Datenbank gespeichert");
+        console.log("   " + "\n" + "⌈————————————————————————————————————————————————————⌉ " + "\n" +
+                                   "|  Dein Feuerwerk wird in der Datenbank gespeichert  |" +"\n" +
+                                   "⌊————————————————————————————————————————————————————⌋ "
+                              + "\n"  + "  " + "\n");
 
         let formData: FormData = new FormData(form);
         let query: URLSearchParams = new URLSearchParams(<any>formData);
-        console.log(query.toString());
         let response: Response = await fetch(url + "?" + query.toString());
-        await fetch(url + "?" + query.toString()); //
+        await fetch(url + "?" + query.toString());
         let responseText: string = await response.text();
+
+        console.log(responseText);
         alert(responseText);
     }
 }

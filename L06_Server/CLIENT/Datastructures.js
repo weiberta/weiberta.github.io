@@ -6,7 +6,8 @@ var L06_Server;
     let url = "https://kisjasserver.herokuapp.com/";
     // >>>>>>>>>>>>>>>>> HANDLE LOAD <<<<<<<<<<<<<<<<<<<
     async function handleLoad(_event) {
-        console.log("  〈 Willkommen  〉  " + "\n" + "—————————————————");
+        console.log("————————————〈  W i l l k o m m e n  〉————————————"
+            + "\n" + "     ");
         let response = await fetch("Data.json"); // fetch soll nicht sofort "reinspringen",
         let selection = await response.text(); // (bei ihm offer) deswegen await! bis Daten geladen sind > asynchronisieren + promise
         let data = JSON.parse(selection);
@@ -45,19 +46,21 @@ var L06_Server;
     // DELETE DATA
     function deleteData() {
         let order = document.querySelector("div#order");
-        order.innerHTML = "";
-        console.log("Deine Auswahl wurde zurückgesetzt.");
+        order.innerHTML = "Deine Zusammenstellung ...";
+        console.log("\n" + "    ♦—◊——◊——◊—〈 AUSWAHL GELÖSCHT 〉—◊——◊——◊—♦" + "\n" + "    ");
     }
     // SAVE DATA
     async function submitData(_event) {
-        alert("Dein Feuerwerk wird in der Datenbank gespeichert");
-        console.log("Dein Feuerwerk wird in der Datenbank gespeichert");
+        console.log("   " + "\n" + "⌈————————————————————————————————————————————————————⌉ " + "\n" +
+            "|  Dein Feuerwerk wird in der Datenbank gespeichert  |" + "\n" +
+            "⌊————————————————————————————————————————————————————⌋ "
+            + "\n" + "  " + "\n");
         let formData = new FormData(form);
         let query = new URLSearchParams(formData);
-        console.log(query.toString());
         let response = await fetch(url + "?" + query.toString());
-        await fetch(url + "?" + query.toString()); //
+        await fetch(url + "?" + query.toString());
         let responseText = await response.text();
+        console.log(responseText);
         alert(responseText);
     }
 })(L06_Server || (L06_Server = {}));
