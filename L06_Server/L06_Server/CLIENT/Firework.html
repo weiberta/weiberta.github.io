@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8" content="width=device-width, initial-scale=1.0" name="viewport">
+    <link rel="stylesheet" href="stylesheet.css" type="text/css" media="screen"/>
+    <script src="GenerateContent.js" type="text/javascript" charset="utf-8"></script>
+    <script src="Datastructures.js" type="text/javascript" charset="utf-8"></script>
+
+    <title>Firework Bastelcenter</title>
+
+</head>
+<body>
+<header>
+    <h1 class="text">FIREWORK - BASTELCENTER </h1>
+    <p class="text">Stelle deine eigenen Feuerwerke her und lasse deine Raketen steigen!</p>
+    <div id="divheader"></div>
+</header>
+
+<section id="section">
+
+    <form id="form" method="get"> <!-- //  1) form div zu form id !!!!! -->
+
+        <div>
+            <h2 id="feuerw" class="text">Feuerwerke zusammenstellen</h2>
+
+            <fieldset id="Feuerwerkskoerper">
+                <legend> Feuerwerkskörper</legend>
+            </fieldset>
+
+            <fieldset id="Explosionsform">
+                <legend>Explosionsform</legend>
+            </fieldset>
+
+            <fieldset id="Explosionsradius">
+                <legend>Explosionsradius</legend>
+            </fieldset>
+
+            <fieldset id="Farbe">
+                <legend>Farbe des Feuerwerks</legend>
+            </fieldset>
+
+
+            <fieldset>
+                <legend>Explosionsdauer</legend>
+                0 Sekunden
+                <input type="range" name="Explosionsdauer" id="amount" min="0" max="5" step="1" value="0">
+                5 Sekunden
+                <progress id="progressbar" max="5" value="0"></progress>
+            </fieldset>
+
+        </div>
+    </form>
+
+    <div id="order">
+        <h3 class="text">Deine Zusammenstellung ...</h3>
+    </div>
+
+</section>
+
+<canvas id="myCanvas"></canvas>
+<!-- <script src="canvas.js"> </script>-->
+
+<button id="buttonspeichern" class="button">Speichern</button>  <!-- IN DATENBANK + SERVER !!!-->
+<button id="buttonloeschen" type="reset" class="button">Löschen</button>
+
+<button id="buttonsenden" type="button" class="button">TRY ME</button>
+
+
+
+</body>
+</html>
