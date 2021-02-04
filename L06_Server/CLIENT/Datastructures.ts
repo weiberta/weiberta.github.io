@@ -7,7 +7,7 @@ namespace L06_Server {
     // >>>>>>>>>>>>>>>>> HANDLE LOAD <<<<<<<<<<<<<<<<<<<
 
     async function handleLoad(_event: Event): Promise<void> {
-        console.log("Willkommen");
+          console.log("  〈 Willkommen 〉 " + "\n" + "———————————————————");
 
 
         let response: Response = await fetch("Data.json"); // fetch soll nicht sofort "reinspringen",
