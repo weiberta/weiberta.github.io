@@ -159,7 +159,7 @@ namespace FireworkCrafting {
     }
 
     function importData() {
-        let id: string = loadedRocketsDropdown.value;
+        let id: string = "Nummer :" + loadedRocketsDropdown.value;
         const selectedSettings: Config = <Config>rocketsLoaded.find(firework => {
             return firework._id == id;});
         settings = selectedSettings;

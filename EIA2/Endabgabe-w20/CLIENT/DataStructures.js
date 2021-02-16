@@ -116,7 +116,7 @@ var FireworkCrafting;
         rocketsLoaded = data;
     }
     function importData() {
-        let id = loadedRocketsDropdown.value;
+        let id = "Nummer :" + loadedRocketsDropdown.value;
         const selectedSettings = rocketsLoaded.find(firework => {
             return firework._id == id;
         });
