@@ -20,9 +20,9 @@ namespace FireworkCrafting {
     export type Config = {
         _id?: string; //id, welche von Mongodb automatisch vergeben wird
         hue: number; //hue values not colors 0-360
-        particleRadius: number; //1-100px
-        particleNumber: number; //1-1000
-        particleSpeed: number; //0-100
+        particleRadius: number;
+        particleNumber: number;
+        particleSpeed: number;
     };
 
     let settings: Config = {
@@ -32,48 +32,36 @@ namespace FireworkCrafting {
         particleSpeed: 10,
     };
 
-    // >>>>>>>>>>>>>>>>> SHOOT ROCKET <<<<<<<<<<<<<<<<<<<
-
+    // >>>>>>>>>>>>>>>>> RAKETE ABFEUERN <<<<<<<<<<<<<<<<<<<
 
     function shootRocket(position: Vector2D, config: Config): void {
         rocketsAlive.push(new Rocket(position, config));
-      //  console.log(rocketsAlive);
-      //  console.log("X: " + position.x + " Y: " + position.y);
-      //  console.log(config);
     }
 
     // >>>>>>>>>>>>>>>>> UPDATE FRAME <<<<<<<<<<<<<<<<<<<
 
 
     function updateFrame(): void {
-        //requestAnimationFrame ruft diese funktion auf, wenn der Browser einen neuen Frame berechnen möchte
+
         window.requestAnimationFrame(updateFrame);
-
-        //Hier wird der Canvas überschrieben mit schwarzer Farbe und dem Alphawert welcher in fadeEffect konfiguriert ist
-        //Ist zuständig für die Spur, welche die Partikel hinter sich her ziehen
-
         crc2.fillStyle = `rgba(0, 0, 0, 0.1)`;
         crc2.fillRect(0, 0, canvas.width, canvas.height);
 
-        //Für jedes aktive Feuerwerk wird die Methode update aufgerufen um das feuerwerk zu zeichnen
+
         rocketsAlive.forEach((rocket, i) => {
-            //Überprüfen mithilfe von isBurnedOut ob das Feuerwerk noch nicht erloschen ist, falls nein, Zeichne Feuerwerk
             if (!rocket.finished()) {
-                rocket.update();
-            } else {
-                rocketsAlive.splice(i, 1);
-            }
+                rocket.update();} else {rocketsAlive.splice(i, 1);}
         });
     }
 
     // >>>>>>>>>>>>>>>>> HANDLE LOAD <<<<<<<<<<<<<<<<<<<
 
     async function handleLoad(_event: Event): Promise<void> {
-        console.log("————————————〈  W i l l k o m m e n  〉————————————"
+        console.log("——————————————〈  W i l l k o m m e n  〉————————————————"
             + "\n" + "     " );
 
         let response: Response = await fetch("Data.json"); // fetch soll nicht sofort "reinspringen",
-        let selection: string = await response.text(); // (bei ihm offer) deswegen await! bis Daten geladen sind > asynchronisieren + promise
+        let selection: string = await response.text(); // bis Daten geladen sind > asynchronisieren + promise
         let data: Data = JSON.parse(selection);
 
         generateContent(data);
@@ -115,16 +103,18 @@ namespace FireworkCrafting {
             let item: HTMLInputElement = <HTMLInputElement>document.querySelector("[value='" + entry[1] + "']");
             order.innerHTML += "<br> <strong>" + entry[0] + ": </strong> " + item.value + "<br>";
         }
-        settings.hue = settingsValues[0];
+        settings.hue = settingsValues[0];               // kategorien 0 - 3 werden abgegriffen aus Datá.jasón
         settings.particleRadius = settingsValues[1];
         settings.particleNumber = settingsValues[2];
         settings.particleSpeed = settingsValues[3];
+        console.log("\n" + "♦———————————————————————————————————————————————♦"   );
     }
+
 
     // >>>>>>>>>>>>>>>>> DISPLAY AMOUNT <<<<<<<<<<<<<<<<<<<
 
     function displayAmount(_event: Event): void {
-        let progress: HTMLProgressElement = <HTMLProgressElement>document.querySelector("progress");
+        let progress: HTMLProgressElement = <HTMLProgressElement>document.querySelector("progress"); // was man nicht sieht..
         let amount: string = (<HTMLInputElement>_event.target).value;
         progress.value = parseFloat(amount);
     }
@@ -144,15 +134,17 @@ namespace FireworkCrafting {
         query.append("RocketConfig", JSON.stringify(settings));
         query.append("type", "put");
         fetch(url + "?" + query.toString());
+        console.log("\n" + "   ♦—◊——◊——◊—〈 AUSWAHL ÜBERMITTELT 〉—◊——◊——◊—♦" + "\n" + "   " );
+        // console.log("\n" + "♦———————————————————————————————————————————————♦"   );
     }
 
     async function loadData(_event: Event) {
-        let query: URLSearchParams = new URLSearchParams();
+        let query: URLSearchParams = new URLSearchParams();     // "group"
         query.append("type", "get");
         const response: Response = await fetch(url + "?" + query.toString());
         const data: Config[] = await response.json();
 
-        loadedRocketsDropdown.innerHTML = "";
+        loadedRocketsDropdown.innerHTML = " "; // !!!!!
         let counter: number = 0;
 
         data.forEach(firework => {
@@ -161,8 +153,6 @@ namespace FireworkCrafting {
 
             newOption.value = <string>firework._id;
             newOption.text = counter.toString();
-
-            //Option Element der Dropdownliste hinzufügen
             loadedRocketsDropdown.add(newOption);
         });
         rocketsLoaded = data;
@@ -170,12 +160,9 @@ namespace FireworkCrafting {
 
     function importData() {
         let id: string = loadedRocketsDropdown.value;
-
         const selectedSettings: Config = <Config>rocketsLoaded.find(firework => {
-            return firework._id == id;
-        });
+            return firework._id == id;});
         settings = selectedSettings;
     }
-
     updateFrame();
 }

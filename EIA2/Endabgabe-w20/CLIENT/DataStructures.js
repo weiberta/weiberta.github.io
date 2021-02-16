@@ -18,24 +18,16 @@ var FireworkCrafting;
         particleNumber: 400,
         particleSpeed: 10,
     };
-    // >>>>>>>>>>>>>>>>> SHOOT ROCKET <<<<<<<<<<<<<<<<<<<
+    // >>>>>>>>>>>>>>>>> RAKETE ABFEUERN <<<<<<<<<<<<<<<<<<<
     function shootRocket(position, config) {
         rocketsAlive.push(new FireworkCrafting.Rocket(position, config));
-        //  console.log(rocketsAlive);
-        //  console.log("X: " + position.x + " Y: " + position.y);
-        //  console.log(config);
     }
     // >>>>>>>>>>>>>>>>> UPDATE FRAME <<<<<<<<<<<<<<<<<<<
     function updateFrame() {
-        //requestAnimationFrame ruft diese funktion auf, wenn der Browser einen neuen Frame berechnen möchte
         window.requestAnimationFrame(updateFrame);
-        //Hier wird der Canvas überschrieben mit schwarzer Farbe und dem Alphawert welcher in fadeEffect konfiguriert ist
-        //Ist zuständig für die Spur, welche die Partikel hinter sich her ziehen
         FireworkCrafting.crc2.fillStyle = `rgba(0, 0, 0, 0.1)`;
         FireworkCrafting.crc2.fillRect(0, 0, canvas.width, canvas.height);
-        //Für jedes aktive Feuerwerk wird die Methode update aufgerufen um das feuerwerk zu zeichnen
         rocketsAlive.forEach((rocket, i) => {
-            //Überprüfen mithilfe von isBurnedOut ob das Feuerwerk noch nicht erloschen ist, falls nein, Zeichne Feuerwerk
             if (!rocket.finished()) {
                 rocket.update();
             }
@@ -46,10 +38,10 @@ var FireworkCrafting;
     }
     // >>>>>>>>>>>>>>>>> HANDLE LOAD <<<<<<<<<<<<<<<<<<<
     async function handleLoad(_event) {
-        console.log("————————————〈  W i l l k o m m e n  〉————————————"
+        console.log("——————————————〈  W i l l k o m m e n  〉————————————————"
             + "\n" + "     ");
         let response = await fetch("Data.json"); // fetch soll nicht sofort "reinspringen",
-        let selection = await response.text(); // (bei ihm offer) deswegen await! bis Daten geladen sind > asynchronisieren + promise
+        let selection = await response.text(); // bis Daten geladen sind > asynchronisieren + promise
         let data = JSON.parse(selection);
         FireworkCrafting.generateContent(data);
         // >>>>>>>>>>>>><<<<<<<<<<<<<
@@ -79,14 +71,15 @@ var FireworkCrafting;
             let item = document.querySelector("[value='" + entry[1] + "']");
             order.innerHTML += "<br> <strong>" + entry[0] + ": </strong> " + item.value + "<br>";
         }
-        settings.hue = settingsValues[0];
+        settings.hue = settingsValues[0]; // kategorien 0 - 3 werden abgegriffen aus Datá.jasón
         settings.particleRadius = settingsValues[1];
         settings.particleNumber = settingsValues[2];
         settings.particleSpeed = settingsValues[3];
+        console.log("\n" + "♦———————————————————————————————————————————————♦");
     }
     // >>>>>>>>>>>>>>>>> DISPLAY AMOUNT <<<<<<<<<<<<<<<<<<<
     function displayAmount(_event) {
-        let progress = document.querySelector("progress");
+        let progress = document.querySelector("progress"); // was man nicht sieht..
         let amount = _event.target.value;
         progress.value = parseFloat(amount);
     }
@@ -103,20 +96,21 @@ var FireworkCrafting;
         query.append("RocketConfig", JSON.stringify(settings));
         query.append("type", "put");
         fetch(url + "?" + query.toString());
+        console.log("\n" + "   ♦—◊——◊——◊—〈 AUSWAHL ÜBERMITTELT 〉—◊——◊——◊—♦" + "\n" + "   ");
+        // console.log("\n" + "♦———————————————————————————————————————————————♦"   );
     }
     async function loadData(_event) {
-        let query = new URLSearchParams();
+        let query = new URLSearchParams(); // "group"
         query.append("type", "get");
         const response = await fetch(url + "?" + query.toString());
         const data = await response.json();
-        loadedRocketsDropdown.innerHTML = "";
+        loadedRocketsDropdown.innerHTML = " "; // !!!!!
         let counter = 0;
         data.forEach(firework => {
             counter++;
             const newOption = document.createElement("option");
             newOption.value = firework._id;
             newOption.text = counter.toString();
-            //Option Element der Dropdownliste hinzufügen
             loadedRocketsDropdown.add(newOption);
         });
         rocketsLoaded = data;

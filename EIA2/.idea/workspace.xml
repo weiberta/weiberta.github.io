@@ -1,7 +1,18 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="e1659df7-307e-4fa1-8029-74dd4a4c7f38" name="Default Changelist" comment="" />
+    <list default="true" id="e1659df7-307e-4fa1-8029-74dd4a4c7f38" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Endabgabe-w20/CLIENT/Data.json" beforeDir="false" afterPath="$PROJECT_DIR$/Endabgabe-w20/CLIENT/Data.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Endabgabe-w20/CLIENT/DataStructures.js" beforeDir="false" afterPath="$PROJECT_DIR$/Endabgabe-w20/CLIENT/DataStructures.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Endabgabe-w20/CLIENT/DataStructures.js.map" beforeDir="false" afterPath="$PROJECT_DIR$/Endabgabe-w20/CLIENT/DataStructures.js.map" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Endabgabe-w20/CLIENT/DataStructures.ts" beforeDir="false" afterPath="$PROJECT_DIR$/Endabgabe-w20/CLIENT/DataStructures.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Endabgabe-w20/CLIENT/Firework.html" beforeDir="false" afterPath="$PROJECT_DIR$/Endabgabe-w20/CLIENT/Firework.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Endabgabe-w20/CLIENT/Rocket.js" beforeDir="false" afterPath="$PROJECT_DIR$/Endabgabe-w20/CLIENT/Rocket.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Endabgabe-w20/CLIENT/Rocket.js.map" beforeDir="false" afterPath="$PROJECT_DIR$/Endabgabe-w20/CLIENT/Rocket.js.map" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Endabgabe-w20/CLIENT/Rocket.ts" beforeDir="false" afterPath="$PROJECT_DIR$/Endabgabe-w20/CLIENT/Rocket.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Endabgabe-w20/CLIENT/stylesheet.css" beforeDir="false" afterPath="$PROJECT_DIR$/Endabgabe-w20/CLIENT/stylesheet.css" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -25,7 +36,10 @@
     <property name="ts.external.directory.path" value="$APPLICATION_HOME_DIR$/plugins/JavaScriptLanguage/jsLanguageServicesImpl/external" />
     <property name="vue.rearranger.settings.migration" value="true" />
   </component>
-  <component name="RunManager">
+  <component name="RunManager" selected="JavaScript Debug.Firework.html">
+    <configuration name="Firework.html" type="JavascriptDebugType" temporary="true" nameIsGenerated="true" uri="http://localhost:63342/EIA2/Endabgabe-w20/CLIENT/Firework.html" useBuiltInWebServerPort="true">
+      <method v="2" />
+    </configuration>
     <configuration name="start" type="js.build_tools.npm" temporary="true" nameIsGenerated="true">
       <package-json value="$PROJECT_DIR$/package.json" />
       <command value="run" />
@@ -38,6 +52,7 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="JavaScript Debug.Firework.html" />
         <item itemvalue="npm.start" />
       </list>
     </recent_temporary>
@@ -50,7 +65,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1613458921578</updated>
-      <workItem from="1613458924047" duration="168000" />
+      <workItem from="1613458924047" duration="4667000" />
     </task>
     <servers />
   </component>
