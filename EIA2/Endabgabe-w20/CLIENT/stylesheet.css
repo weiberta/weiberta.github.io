@@ -125,7 +125,7 @@ button {
     margin-right: 3%;
 }
 
-.note{text-align: right; font-size: small}
+.note{text-align: right; font-size: small; color: silver;}
 
 .button:hover {
     opacity: 0.5;
