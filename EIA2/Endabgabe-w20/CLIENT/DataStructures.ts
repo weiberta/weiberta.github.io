@@ -134,7 +134,7 @@ namespace FireworkCrafting {
         query.append("RocketConfig", JSON.stringify(settings));
         query.append("type", "put");
         fetch(url + "?" + query.toString());
-        console.log("\n" + "   ♦—◊——◊——◊—〈 AUSWAHL ÜBERMITTELT 〉—◊——◊——◊—♦" + "\n" + "   " );
+        alert("\n" + "   ♦—◊——◊——◊—〈 AUSWAHL ÜBERMITTELT 〉—◊——◊——◊—♦" + "\n" + "   " );
         // console.log("\n" + "♦———————————————————————————————————————————————♦"   );
     }
 
