@@ -1,11 +1,11 @@
 {
-  "name": "FireworkCrafting",
+  "name": "kisjasserver",
   "version": "1.0.0",
-  "dependencies": {
-    "@types/node": "^14.14.28",
-    "mongodb": "^3.6.4"
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "node Endabgabe-w20/SERVER/Server.js"
   },
-  "devDependencies": {
-    "@types/mongodb": "^3.6.7"
-  }
+  "author": "weiberta",
+  "license": "ISC"
 }
