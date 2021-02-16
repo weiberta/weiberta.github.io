@@ -1,0 +1,11 @@
+{
+  "name": "FireworkCrafting",
+  "version": "1.0.0",
+  "dependencies": {
+    "@types/node": "^14.14.28",
+    "mongodb": "^3.6.4"
+  },
+  "devDependencies": {
+    "@types/mongodb": "^3.6.7"
+  }
+}
