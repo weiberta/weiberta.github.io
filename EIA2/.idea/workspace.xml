@@ -1,5 +1,30 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="e1659df7-307e-4fa1-8029-74dd4a4c7f38" name="Default Changelist" comment="" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
+  </component>
+  <component name="ProjectId" id="1oYM9RVEFKQgh27HVhWePizmQsg" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="nodejs_package_manager_path" value="npm" />
+    <property name="ts.external.directory.path" value="$APPLICATION_HOME_DIR$/plugins/JavaScriptLanguage/jsLanguageServicesImpl/external" />
+    <property name="vue.rearranger.settings.migration" value="true" />
+  </component>
   <component name="RunManager">
     <configuration name="start" type="js.build_tools.npm" temporary="true" nameIsGenerated="true">
       <package-json value="$PROJECT_DIR$/package.json" />
@@ -16,5 +41,47 @@
         <item itemvalue="npm.start" />
       </list>
     </recent_temporary>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="e1659df7-307e-4fa1-8029-74dd4a4c7f38" name="Default Changelist" comment="" />
+      <created>1613458921578</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1613458921578</updated>
+      <workItem from="1613458924047" duration="168000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+    <option name="exactExcludedFiles">
+      <list>
+        <option value="$PROJECT_DIR$/Endabgabe-w20/SERVER/Server.js.map" />
+        <option value="$PROJECT_DIR$/Endabgabe-w20/SERVER/Server.js" />
+        <option value="$PROJECT_DIR$/Endabgabe-w20/CLIENT/DataStructures.js.map" />
+        <option value="$PROJECT_DIR$/Endabgabe-w20/CLIENT/DataStructures.js" />
+        <option value="$PROJECT_DIR$/Endabgabe-w20/CLIENT/Vector.js.map" />
+        <option value="$PROJECT_DIR$/Endabgabe-w20/CLIENT/Vector.js" />
+        <option value="$PROJECT_DIR$/Endabgabe-w20/CLIENT/GenerateContent.js.map" />
+        <option value="$PROJECT_DIR$/Endabgabe-w20/CLIENT/GenerateContent.js" />
+        <option value="$PROJECT_DIR$/Endabgabe-w20/CLIENT/Particle.js.map" />
+        <option value="$PROJECT_DIR$/Endabgabe-w20/CLIENT/Particle.js" />
+        <option value="$PROJECT_DIR$/Endabgabe-w20/CLIENT/Rocket.js.map" />
+        <option value="$PROJECT_DIR$/Endabgabe-w20/CLIENT/Rocket.js" />
+      </list>
+    </option>
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
   </component>
 </project>
