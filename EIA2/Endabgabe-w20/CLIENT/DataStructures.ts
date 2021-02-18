@@ -159,7 +159,10 @@ namespace FireworkCrafting {
     }
 
     function importData() {
-        let id: string = "Nummer :" + loadedRocketsDropdown.value;
+       // let id: string = "Nummer :" + loadedRocketsDropdown.value; 
+       // es wurde die falsche Version hochgeladen in dem dieser Fehler drin war
+        
+        let id: string = loadedRocketsDropdown.value;
         const selectedSettings: Config = <Config>rocketsLoaded.find(firework => {
             return firework._id == id;});
         settings = selectedSettings;
